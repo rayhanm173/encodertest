@@ -39,7 +39,7 @@ const Hero = () => {
             cost. If you don’t need the online programming capabilities<span className="hidden md:block">you may
             want to consider the PHOENIX LITE 2 which offers excellent value for money.</span>
           </p>
-          <button className="text-[12px] md:text-[16px] w-[110px] md:w-[160px] md:h-[50px] h-[35px] mt-4 rounded-md text-[#838896] hover:text-[#fff] bg-[#282E3A] hover:bg-[#EA4C49] flex justify-center items-center">
+          <button className="text-[12px] md:text-[16px] w-[110px] md:w-[160px] md:h-[50px] h-[35px] mt-4 rounded-md hover:text-[#838896] text-[#fff] hover:bg-[#282E3A] bg-[#EA4C49] flex justify-center items-center">
             Learn More{" "}
           </button>
         </div>

@@ -3,40 +3,39 @@ import MegaMenu from "./Megamenu";
 const DeskNav = () => {
   return (
     <div>
-
-    <div className="bg-[#1A1F28] hidden md:block">
-      <div className="container">
-        <div className="flex h-[99px] items-center justify-between">
-          <div className="w-[876px] flex gap-[50px] items-center">
-            <img src={desklogo} alt="" />
-            <div className="flex items-center relative">
-              <input
-                placeholder="Search here"
-                className="text-[#737F96] block text-[14px] w-[430px] h-[45px] outline-none border border-[#253146] rounded-md pl-2"
+      <div className="bg-[#1A1F28] hidden md:block">
+        <div className="container">
+          <div className="flex h-[99px] items-center justify-between">
+            <div className="w-[876px] flex gap-[50px] items-center">
+              <img src={desklogo} alt="" />
+              <div className="flex items-center relative">
+                <input
+                  placeholder="Search here"
+                  className="text-[#737F96] block text-[14px] w-[430px] h-[45px] outline-none border border-[#253146] rounded-md pl-2"
                 />
-              <button className="absolute right-2 ">{searchbuttonSVG}</button>
-            </div>
-            <div className="flex items-center">
-              {callus}
-              <div>
-                <p className="text-[#737F96] text-[14px]">Call us free</p>
-                <p className="text-[#FFFFFF] text-[18px]">+1 86.36.166</p>
+                <button className="absolute right-2 ">{searchbuttonSVG}</button>
+              </div>
+              <div className="flex items-center">
+                {callus}
+                <div>
+                  <p className="text-[#737F96] text-[14px]">Call us free</p>
+                  <p className="text-[#FFFFFF] text-[18px]">+1 86.36.166</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="w-[214px] flex gap-[30px]">
-            <div className="flex gap-1">
-              {loginSVG}
-              <p className="text-[#CCCCCC] text-[16px]">Account</p>
+            <div className="w-[214px] flex gap-[30px]">
+              <div className="flex gap-1">
+                {loginSVG}
+                <p className="text-[#CCCCCC] text-[16px]">Account</p>
+              </div>
+              <span className="pointer">{likeSVG}</span>
+              <span className="pointer">{cartSVG}</span>
             </div>
-            <span className="pointer">{likeSVG}</span>
-            <span className="pointer">{cartSVG}</span>
           </div>
         </div>
       </div>
+      <MegaMenu />
     </div>
-    <MegaMenu/>
-                </div>
   );
 };
 

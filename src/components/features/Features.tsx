@@ -14,7 +14,7 @@ const Feat = () => {
         </div>
         <div className="flex flex-wrap md:flex-nowrap items-center justify-center gap-3 md:gap-[50px]  mb-[48px] md:mb-0 md:pb-[80px] md:pt-[50px]">
           <img
-            className="w-[406px] min-h-[297px] md:min-h-[393px] rounded-[25px] md:min-w-[537px]"
+            className="w-[406px] min-h-[297px] md:min-h-[393px] rounded-[25px] md:min-w-[537px] max-md:px-4"
             src={featureimg}
             alt=""
           />
