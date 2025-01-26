@@ -1,0 +1,47 @@
+.topnavmenu{
+   height: 45px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #CCCCCC;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.leftmenu{
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   width: 244px;
+   gap: 10px;
+   @media (max-width:680px) {
+      display: none;
+   }
+}
+.rightmenu{
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   width: 315px;
+   gap: 15px;
+   @media (max-width:680px) {
+      padding-left: 10px;;
+   }
+   
+}
+.addborderright{
+   border-right: 1px solid black;
+}
+.pipe{
+   color: #737F96;
+}
+
+.activered{
+   color: #EA4C49;
+}
+
+.topcontact{
+   display: flex;
+   gap:5px;
+   align-items: center;
+}

@@ -1,0 +1,13 @@
+/* .herobg{
+   background-image: url('../../assets/bg.jfif');
+} */
+.herobg {
+   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+               url('../../assets/bg.jfif'); /* Add your background image path */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   /* min-height: 623px; */
+   width: 100%;
+ }
+ 
